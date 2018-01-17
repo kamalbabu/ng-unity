@@ -1,0 +1,29 @@
+<GridLayout rows="auto, *" class="sidedrawer sidedrawer-left">
+    <StackLayout row="0" class="sidedrawer-header">
+        <Label class="sidedrawer-header-image fa" text="&#xf2bd;"></Label>
+        <Label class="sidedrawer-header-brand" text="John Smith"></Label>
+        <Label class="footnote" text="john.smith@mail.com"></Label>
+    </StackLayout>
+
+    <ScrollView row="1">
+        <StackLayout class="sidedrawer-content">
+            <SideDrawerItem title="Search" route="/search" icon="&#xf002;" [isSelected]="isPageSelected('Search')">
+            </SideDrawerItem>
+            <SideDrawerItem title="Home" route="/home" icon="&#xf015;" [isSelected]="isPageSelected('Home')">
+            </SideDrawerItem>
+            <SideDrawerItem title="Clients" route="/clients" icon="&#xf1ea;" [isSelected]="isPageSelected('Clients')">
+            </SideDrawerItem>
+            <SideDrawerItem title="Opportunites" route="/opportunities" icon="&#xf1ea;" [isSelected]="isPageSelected('Opportunites')">
+            </SideDrawerItem>
+            <SideDrawerItem title="Goals" route="/goals" icon="&#xf1ea;" [isSelected]="isPageSelected('Goals')">
+            </SideDrawerItem>
+            <SideDrawerItem title="Performance" route="/performance" icon="&#xf1ea;" [isSelected]="isPageSelected('Performance')">
+            </SideDrawerItem>
+
+            <StackLayout class="hr-light"></StackLayout>
+
+            <SideDrawerItem title="Settings" route="/settings" icon="&#xf013;" [isSelected]="isPageSelected('Settings')">
+            </SideDrawerItem>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
