@@ -1,8 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var resourceHelper_1 = require("./resourceHelper");
-var scripts = new resourceHelper_1.default("script", "src", {
-    "type": "text/javascript"
-});
-exports.default = scripts;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2NyaXB0cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInNjcmlwdHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxtREFBOEM7QUFFOUMsSUFBTSxPQUFPLEdBQW1CLElBQUksd0JBQWMsQ0FBQyxRQUFRLEVBQUUsS0FBSyxFQUFFO0lBQ2hFLE1BQU0sRUFBRSxpQkFBaUI7Q0FDNUIsQ0FBQyxDQUFDO0FBRUgsa0JBQWUsT0FBTyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlc291cmNlSGVscGVyIGZyb20gXCIuL3Jlc291cmNlSGVscGVyXCI7XG5cbmNvbnN0IHNjcmlwdHM6IFJlc291cmNlSGVscGVyID0gbmV3IFJlc291cmNlSGVscGVyKFwic2NyaXB0XCIsIFwic3JjXCIsIHtcbiAgICBcInR5cGVcIjogXCJ0ZXh0L2phdmFzY3JpcHRcIlxufSk7XG5cbmV4cG9ydCBkZWZhdWx0IHNjcmlwdHM7XG4iXX0=
